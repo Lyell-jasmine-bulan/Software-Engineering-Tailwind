@@ -246,4 +246,10 @@
   .social-icon {
     @apply w-5 h-5;
   }
+
+  .mainsection {
+    @apply pt-32 pb-20 px-6;
+  }
+
+
 }
