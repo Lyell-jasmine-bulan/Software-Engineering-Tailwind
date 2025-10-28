@@ -1,234 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ReadMore - Discover Your Next Great Read</title>
-    <link rel="stylesheet" href="src/output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
-            <div class="nav-content">
-                <div class="nav-logo">
-                    <svg class="logo-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                    </svg>
-                    <span class="logo-text">Software Engineering</span>
-                </div>
-                <div class="nav-links">
-                    <a href="#collections" class="nav-link">Chapters</a>
-                    <a href="#about" class="nav-link">About</a>
-                </div>
-                <button class="btn-primary">Read Now</button>
-            </div>
+      <div class="container">
+        <div class="nav-content">
+          <div class="nav-logo">
+            <svg
+              class="logo-icon"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+              />
+            </svg>
+            <span class="logo-text">Software Engineering</span>
+          </div>
+          <div class="nav-links">
+            <a href="#collections" class="nav-link">Chapters</a>
+            <a href="#about" class="nav-link">About</a>
+          </div>
+          <a href="src/pages/chapterOne.html" class="btn-primary">Read Now</a>
         </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-container">
-            <h1 class="hero-title">Discover Your Next Great Software Engineering Skiils</h1>
-            <p class="hero-subtitle">
-                Immerse yourself in worlds of knowledge and engineering. Reading opens doors to endless possibilities.
-            </p>
-            <button class="btn-hero">Start Reading Today</button>
-        </div>
+      <div class="hero-container">
+        <h1 class="hero-title">
+          Discover Your Next Great Software Engineering Skiils
+        </h1>
+        <p class="hero-subtitle">
+          Immerse yourself in worlds of knowledge and engineering. Reading opens
+          doors to endless possibilities.
+        </p>
+        <a href="src/pages/chapterOne.html" class="btn-hero">Start Reading Today</a>
+      </div>
     </section>
 
     <!-- 4 Book Categories -->
     <section id="collections" class="collections">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Choose Your Journey</h2>
-                <p class="section-subtitle">Explore our curated collections</p>
-            </div>
-            
-            <div class="categories-grid">
-                <!-- Fiction -->
-                <div class="category-card">
-                    <div class="category-inner">
-                        <div class="category-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1582203914614-e23623afc345?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxib29rcyUyMHJlYWRpbmclMjBsaWJyYXJ5fGVufDF8fHx8MTc2MTE4MTA5N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" 
-                                 alt="Fiction Books" 
-                                 class="category-image">
-                            <div class="category-gradient"></div>
-                            <div class="category-content">
-                                <h3 class="category-title">Fiction</h3>
-                                <p class="category-description">Escape into captivating stories</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Non-Fiction -->
-                <div class="category-card">
-                    <div class="category-inner">
-                        <div class="category-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1544210184-2485a3166bef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBib29rcyUyMHNoZWxmfGVufDF8fHx8MTc2MTIzMDAwNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" 
-                                 alt="Non-Fiction Books" 
-                                 class="category-image">
-                            <div class="category-gradient"></div>
-                            <div class="category-content">
-                                <h3 class="category-title">Non-Fiction</h3>
-                                <p class="category-description">Expand your knowledge</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Classics -->
-                <div class="category-card">
-                    <div class="category-inner">
-                        <div class="category-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1760120482171-d9d5468f75fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGFzc2ljJTIwbGl0ZXJhdHVyZSUyMGJvb2tzfGVufDF8fHx8MTc2MTIzMDAwNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" 
-                                 alt="Classic Books" 
-                                 class="category-image">
-                            <div class="category-gradient"></div>
-                            <div class="category-content">
-                                <h3 class="category-title">Classics</h3>
-                                <p class="category-description">Timeless literary masterpieces</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Contemporary -->
-                <div class="category-card">
-                    <div class="category-inner">
-                        <div class="category-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1660479123634-2c700dfbbbdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcGVuJTIwYm9vayUyMHJlYWRpbmd8ZW58MXx8fHwxNzYxMjE0ODc4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" 
-                                 alt="Contemporary Books" 
-                                 class="category-image">
-                            <div class="category-gradient"></div>
-                            <div class="category-content">
-                                <h3 class="category-title">Contemporary</h3>
-                                <p class="category-description">Today's bestselling authors</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Choose Your Journey</h2>
+          <p class="section-subtitle">Explore our curated collections</p>
         </div>
+
+        <div class="categories-grid">
+          <!-- Fiction -->
+          <a href="src/pages/chapterOne.html" class="category-card">
+            <div class="category-inner">
+              <div class="category-image-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1582203914614-e23623afc345?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxib29rcyUyMHJlYWRpbmclMjBsaWJyYXJ5fGVufDF8fHx8MTc2MTE4MTA5N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  alt="Fiction Books"
+                  class="category-image"
+                />
+                <div class="category-gradient"></div>
+                <div class="category-content">
+                  <h3 class="category-title">Fiction</h3>
+                  <p class="category-description">
+                    Escape into captivating stories
+                  </p>
+                </div>
+              </div>
+            </div>
+        </a>
+
+          <!-- Non-Fiction -->
+          <a href="src/pages/chapterTwo.html" class="category-card">
+            <div class="category-inner">
+              <div class="category-image-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1544210184-2485a3166bef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBib29rcyUyMHNoZWxmfGVufDF8fHx8MTc2MTIzMDAwNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  alt="Non-Fiction Books"
+                  class="category-image"
+                />
+                <div class="category-gradient"></div>
+                <div class="category-content">
+                  <h3 class="category-title">Non-Fiction</h3>
+                  <p class="category-description">Expand your knowledge</p>
+                </div>
+              </div>
+            </div>
+        </a>
+
+          <!-- Classics -->
+          <a href="src/pages/chapterThree.html" class="category-card">
+            <div class="category-inner">
+              <div class="category-image-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1760120482171-d9d5468f75fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGFzc2ljJTIwbGl0ZXJhdHVyZSUyMGJvb2tzfGVufDF8fHx8MTc2MTIzMDAwNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  alt="Classic Books"
+                  class="category-image"
+                />
+                <div class="category-gradient"></div>
+                <div class="category-content">
+                  <h3 class="category-title">Classics</h3>
+                  <p class="category-description">
+                    Timeless literary masterpieces
+                  </p>
+                </div>
+              </div>
+            </div>
+        </a>
+
+          <!-- Contemporary -->
+          <a href="src/pages/chapterFour.html" class="category-card">
+            <div class="category-inner">
+              <div class="category-image-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1660479123634-2c700dfbbbdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcGVuJTIwYm9vayUyMHJlYWRpbmd8ZW58MXx8fHwxNzYxMjE0ODc4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  alt="Contemporary Books"
+                  class="category-image"
+                />
+                <div class="category-gradient"></div>
+                <div class="category-content">
+                  <h3 class="category-title">Contemporary</h3>
+                  <p class="category-description">
+                    Today's bestselling authors
+                  </p>
+                </div>
+              </div>
+            </div>
+        </a>
+
+
+        </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="about-container">
-            <div class="about-header">
-                <h2 class="about-title">Why Reading Matters</h2>
-                <p class="about-intro">
-                    Reading is more than just a hobby—it's a gateway to new perspectives, ideas, and experiences. 
-                    Every book you read enriches your mind, expands your vocabulary, and sharpens your thinking.
-                </p>
-            </div>
-            
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                        </svg>
-                    </div>
-                    <h3 class="benefit-title">Expand Your Mind</h3>
-                    <p class="benefit-description">Gain new perspectives and ideas</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                        </svg>
-                    </div>
-                    <h3 class="benefit-title">Reduce Stress</h3>
-                    <p class="benefit-description">Escape into different worlds</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                        </svg>
-                    </div>
-                    <h3 class="benefit-title">Improve Focus</h3>
-                    <p class="benefit-description">Strengthen concentration skills</p>
-                </div>
-            </div>
-
-            <div class="about-footer">
-                <p class="about-conclusion">
-                    Whether you're seeking knowledge, entertainment, or inspiration, books offer an unparalleled journey. 
-                    Start your reading adventure today and discover the transformative power of literature.
-                </p>
-            </div>
+      <div class="about-container">
+        <div class="about-header">
+          <h2 class="about-title">Why Software Engineering Matters</h2>
+          <p class="about-intro">
+            Software engineering is the backbone of modern technology. It’s not
+            just about writing code—it’s about solving real-world problems,
+            building reliable systems, and shaping the digital future that
+            connects people and ideas around the world.
+          </p>
         </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </div>
+            <h3 class="benefit-title">Build the Future</h3>
+            <p class="benefit-description">
+              Create systems and apps that improve lives and industries.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-2.21 0-4 1.79-4 4v6h8v-6c0-2.21-1.79-4-4-4zM5 20h14"
+                />
+              </svg>
+            </div>
+            <h3 class="benefit-title">Solve Complex Problems</h3>
+            <p class="benefit-description">
+              Turn challenges into elegant, efficient technical solutions.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <svg
+                class="icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m5 8a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <h3 class="benefit-title">Ensure Quality & Reliability</h3>
+            <p class="benefit-description">
+              Design software that performs consistently and scales smoothly.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-footer">
+          <p class="about-conclusion">
+            Software engineering drives innovation and progress in every
+            industry—from healthcare to gaming, finance to education. By
+            mastering it, you’re not just learning to code—you’re learning to
+            change the world.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <div class="footer-logo">
-                        <svg class="logo-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                        </svg>
-                        <span class="logo-text">ReadMore</span>
-                    </div>
-                    <p class="footer-description">
-                        Encouraging readers worldwide to explore the magic of books.
-                    </p>
-                </div>
-                <div class="footer-col">
-                    <h4 class="footer-heading">Explore</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Fiction</a></li>
-                        <li><a href="#">Non-Fiction</a></li>
-                        <li><a href="#">Classics</a></li>
-                        <li><a href="#">Contemporary</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4 class="footer-heading">Resources</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Reading Lists</a></li>
-                        <li><a href="#">Book Clubs</a></li>
-                        <li><a href="#">Author Interviews</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4 class="footer-heading">Connect</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Newsletter</a></li>
-                        <li><a href="#">Community</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p class="footer-copyright">© 2025 ReadMore. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="#" class="social-link" aria-label="Facebook">
-                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                        </svg>
-                    </a>
-                    <a href="#" class="social-link" aria-label="Twitter">
-                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-                        </svg>
-                    </a>
-                    <a href="#" class="social-link" aria-label="Instagram">
-                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <svg
+              class="logo-icon"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+              />
+            </svg>
+            <span class="logo-text">ReadMore</span>
+          </div>
+          <ul class="footer-nav">
+            <li>
+              <a href="src/pages/chapterOne.html" class="footer-link"
+                >Chapter 1</a
+              >
+            </li>
+            <li>
+              <a href="src/pages/chapterTwo.html" class="footer-link"
+                >Chapter 2</a
+              >
+            </li>
+            <li>
+              <a href="src/pages/chapterThree.html" class="footer-link"
+                >Chapter 3</a
+              >
+            </li>
+            <li>
+              <a href="src/pages/chapterFour.html" class="footer-link"
+                >Chapter 4</a
+              >
+            </li>
+          </ul>
         </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright">© 2025 Software Engineering. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
