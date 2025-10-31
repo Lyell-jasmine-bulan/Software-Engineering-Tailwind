@@ -6,9 +6,9 @@
     <title>Chapter 3</title>
     <link rel="stylesheet" href="../output.css">
 </head>
-<body>
+<body class=" p-20"> 
 
-    <nav class="navbar">
+    <nav class="navbar ">
         <div class="container">
             <div class="nav-content">
                 <div class="nav-logo">
@@ -18,29 +18,32 @@
                     <span class="logo-text">Software Engineering</span>
                 </div>
                 <div class="nav-links">
-                    <a href="#collections" class="nav-link">Chapters</a>
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="chapterOne.html" class="nav-link">Chapter One</a>
+                    <a href="chapterTwo.html" class="nav-link">Chapter Two</a>
+                    <a href="chapterThree.html" class="nav-link">Chapter Three</a>
+                    <a href="chapterFour.html" class="nav-link">Chapter Four</a>
                 </div>
-                <button class="btn-primary">Read Now</button>
             </div>
         </div>
     </nav>
 
-
-    <header class="">
-
-        <section class="header">
-            <h1>3</h1>   
-            <h2>Agile softwaredevelopment</h2>
-        </section>
-
-    </header>
-
     
-    <main class="mainsection">
+    <main class="text-justify p-25 bg-primary  ">
 
-         <section class="psec">
-            <h3>Objectives</h3>
+
+
+        <header class="text-center  mt-0 my-10  text-3xl font-bold p-6  border border-white-600  bg-secondary">
+           <section class="header">
+              <h1>3</h1>   
+              <h2>Agile software development</h2>
+           </section>
+        </header>
+
+        <section class="bg-neutral p-6 mb-10">
+
+            <h3 class="text-center text-2xl  my-5">
+                Objectives
+            </h3>
             <p>The objective of this chapter is to introduce you to agile softwaredevelopment methods. When you have read the chapter, you will:</p>
         
             <ul>
@@ -50,8 +53,9 @@
                 <li>understand the concepts of user stories, story points, and velocity;</li>
                 <li>be aware of the issues and problems of scaling agile developmentmethods to the development of large software systems.</li>
             </ul>
-       
-        <h4>Contents</h4>
+
+            <h4 class="text-center   text-2xl my-5">Contents</h4>
+
             <p>
                 3.1 Agile methods <br>
                 3.2 Plan-driven and agile development <br>
@@ -61,23 +65,34 @@
             </p>
         </section>
 
-        <article>
-             <section class="topic">
+
+        <section class="text-right my-0">
+                <p>Chapter 3 ■ Agile software development <strong>57</strong></p>
+        </section>
+        <!-- "bg-neutral-700/75 p-19 mb-10  article-->
+
+        <article class="">
+
+            <section class="topic">
                 <p>Chapter 3 ■ Agile software development <strong>57</strong></p>
             </section>
 
-            <section class="psec">
+            <section class="bg-neutral  rounded-2xl p-15 mb-10">
                <p>Businesses now operate in a global, rapidly changing environment. They have to respond to new opportunities and markets, changing economic conditions, and the
                  emergence of competing products and services. Software is part of almost all business operations so new software is developed quickly to take advantage of new
                  opportunities and to respond to competitive pressure. Rapid development and delivery is therefore now often the most critical requirement for software systems. In fact,
                  many businesses are willing to trade off software quality and compromise on requirements to achieve faster deployment of the software that they need. 
               </p>
 
+              <br>
+
                 <p>Because these businesses are operating in a changing environment, it is often practically impossible to derive a complete set of stable software requirements. The initial
                    requirements inevitably change because customers find it impossible to predict how a system will affect working practices, how it will interact with other systems, and what
                    user operations should be automated. It may only be after a system has been delivered and users gain experience with it that the real requirements become clear. Even then,
                   the requirements are likely to change quickly and unpredictably due to external factors.The software may then be out of date when it is delivered.
                 </p>
+
+                <br>
 
                 
                 <p>Software development processes that plan on completely specifying the requirements and then designing, building, and testing the system are not geared to rapid software
@@ -110,8 +125,8 @@
                 </p>
             </section>
 
-            <section class="topic">
-               <p><strong>58</strong>Chapter 3 ■ Agile software development</p>
+            <section class="flex-justify-center">
+               <p><strong>58</strong> Chapter 3 ■ Agile software development</p>
             </section>
 
             <section class="psec">
@@ -1539,17 +1554,19 @@ problems.
     </main>
 
     
-        <section class="topic">
+        <section class=" text-center text-right p-4">
             <p>
                 80 Chapter 3 ■ Agile software development
             </p>
+        </section>
 
+        <section class="">
             <h3>
                 R E F E R E N C E S
             </h3>
         </section>
 
-        <section class="psec">
+        <section class=" border border-white-600 p-6 text-justify">
             <p>
                 Ambler, S. W. and Jeffries, R. (2002). Agile Modeling: Effective Practices for Extreme Programming
 and the Unified Process. New York: John Wiley & Sons. 
@@ -1730,65 +1747,22 @@ Programming’. IEEE Software, 17 (4), 19–25.
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <div class="footer-logo">
-                        <svg class="logo-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                        </svg>
-                        <span class="logo-text">ReadMore</span>
-                    </div>
-                    <p class="footer-description">
-                        Encouraging readers worldwide to explore the magic of books.
-                    </p>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg class="logo-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                    <span class="logo-text">ReadMore</span>
                 </div>
-                <div class="footer-col">
-                    <h4 class="footer-heading">Explore</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Fiction</a></li>
-                        <li><a href="#">Non-Fiction</a></li>
-                        <li><a href="#">Classics</a></li>
-                        <li><a href="#">Contemporary</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4 class="footer-heading">Resources</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Reading Lists</a></li>
-                        <li><a href="#">Book Clubs</a></li>
-                        <li><a href="#">Author Interviews</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4 class="footer-heading">Connect</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Newsletter</a></li>
-                        <li><a href="#">Community</a></li>
-                    </ul>
-                </div>
+                <ul class="footer-nav">
+                    <li><a href="chapterOne.html" class="footer-link">Chapter 1</a></li>
+                    <li><a href="#chapterTwo.html" class="footer-link">Chapter 2</a></li>
+                    <li><a href="#chapterThree.html" class="footer-link">Chapter 3</a></li>
+                    <li><a href="#chapterFour.html" class="footer-link">Chapter 4</a></li>
+                </ul>
             </div>
             <div class="footer-bottom">
                 <p class="footer-copyright">© 2025 ReadMore. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="#" class="social-link" aria-label="Facebook">
-                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                        </svg>
-                    </a>
-                    <a href="#" class="social-link" aria-label="Twitter">
-                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-                        </svg>
-                    </a>
-                    <a href="#" class="social-link" aria-label="Instagram">
-                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
-                        </svg>
-                    </a>
-                </div>
             </div>
         </div>
     </footer>
