@@ -1,18 +1,11 @@
 @import "tailwindcss";
 
-/* ================================
-   🌑 Custom Base Styles (Tailwind 4)
-   ================================ */
-
-
-
-   
-   @theme {
-  --color-primary: #52525c ;   /* zinc-600/50 (primary) */
-  --color-secondary: #27272a ; /* zinc-800/75 (secondary) */
-  --color-neutral: #404040 ;   /* neutral/75     neutral*/ 
-  --color-background: #000000;/* black background */
-  --color-foreground: #ffffff;/* white foreground / text */
+@theme {
+  --color-primary: #52525c ;
+  --color-secondary: #27272a ; 
+  --color-neutral: #404040 ;   
+  --color-background: #000000;
+  --color-foreground: #ffffff;
 }
 
 @layer utilities {
