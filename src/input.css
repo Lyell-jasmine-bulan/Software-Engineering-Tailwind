@@ -3,6 +3,39 @@
 /* ================================
    🌑 Custom Base Styles (Tailwind 4)
    ================================ */
+
+
+
+   
+   @theme {
+  --color-primary: #52525c ;   /* zinc-600/50 (primary) */
+  --color-secondary: #27272a ; /* zinc-800/75 (secondary) */
+  --color-neutral: #404040 ;   /* neutral/75     neutral*/ 
+  --color-background: #000000;/* black background */
+  --color-foreground: #ffffff;/* white foreground / text */
+}
+
+@layer utilities {
+  /* text / background / border utilities that use @theme variables */
+  .text-primary { color: var(--color-background); }
+  
+  .bg-primary { background-color: var(--color-primary); }
+  .bg-secondary { background-color: var(--color-secondary); }
+  .bg-neutral { background-color: var(--color-neutral); }
+
+  .border-primary { border-color: var(--color-foreground); }
+  .fill-primary { fill: var(--color-foreground); } /* svg fill */
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url();
+}
+
+
+
+
+
 @layer base {
   * {
     @apply m-0 p-0 box-border;
@@ -58,6 +91,8 @@
   .btn-primary {
     @apply bg-white text-black px-6 py-2 rounded-md font-medium cursor-pointer transition-colors duration-300 hover:bg-gray-200;
   }
+
+  
 
   /* Hero Section */
   .hero {
