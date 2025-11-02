@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #52525c ;
+  --color-primary: #52525c  ;
   --color-secondary: #27272a ; 
   --color-neutral: #404040 ;   
   --color-background: #000000;
   --color-foreground: #ffffff;
 }
 
+
+
 @layer utilities {
-  /* text / background / border utilities that use @theme variables */
+  
   .text-primary { color: var(--color-background); }
   
   .bg-primary { background-color: var(--color-primary); }
@@ -17,7 +19,7 @@
   .bg-neutral { background-color: var(--color-neutral); }
 
   .border-primary { border-color: var(--color-foreground); }
-  .fill-primary { fill: var(--color-foreground); } /* svg fill */
+  .fill-primary { fill: var(--color-foreground); }
 }
 
 @font-face {
@@ -82,7 +84,7 @@
   }
 
   .btn-primary {
-    @apply bg-white text-black px-6 py-2 rounded-md font-medium cursor-pointer transition-colors duration-300 hover:bg-gray-200;
+    @apply bg-white bg-primary px-6 py-2 rounded-md font-medium cursor-pointer transition-colors duration-300 hover:bg-gray-200;
   }
 
   
