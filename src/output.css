@@ -217,6 +217,9 @@
       max-width: 96rem;
     }
   }
+  .m-40 {
+    margin: calc(var(--spacing) * 40);
+  }
   .my-0 {
     margin-block: calc(var(--spacing) * 0);
   }
@@ -234,6 +237,9 @@
   }
   .contents {
     display: contents;
+  }
+  .table {
+    display: table;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
