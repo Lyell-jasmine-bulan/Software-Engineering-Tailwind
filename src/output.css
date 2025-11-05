@@ -823,6 +823,25 @@
     }
   }
 }
+.chapter1-home {
+  background-color: var(--color-primary);
+}
+* {
+  margin: calc(var(--spacing) * 0);
+  box-sizing: border-box;
+  padding: calc(var(--spacing) * 0);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  background-color: var(--color-black);
+  font-family: var(--font-sans);
+  --tw-leading: var(--leading-relaxed);
+  line-height: var(--leading-relaxed);
+  color: var(--color-white);
+}
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
