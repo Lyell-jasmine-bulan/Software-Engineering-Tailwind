@@ -15,8 +15,7 @@
   
   .bg-primary { background-color: var(--color-primary); }
   .bg-secondary { background-color: var(--color-secondary); }
-  .bg-neutral { background-color: var(--color-neutral); }
-
+  
   .border-primary { border-color: var(--color-foreground); }
   .fill-primary { fill: var(--color-foreground); }
 }

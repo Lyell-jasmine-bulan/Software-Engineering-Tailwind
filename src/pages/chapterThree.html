@@ -18,7 +18,7 @@
                     <span class="logo-text">Software Engineering</span>
                 </div>
                 <div class="nav-links">
-                    <a href="chapterOne.html" class="nav-link">Chapter One</a>
+                    <a  href="chapterOne.html" class="nav-link">Chapter One</a>
                     <a href="chapterTwo.html" class="nav-link">Chapter Two</a>
                     <a href="chapterThree.html" class="nav-link">Chapter Three</a>
                     <a href="chapterFour.html" class="nav-link">Chapter Four</a>
@@ -28,33 +28,44 @@
     </nav>
 
     
-    <main class="text-justify p-25 bg-primary  ">
+    <main class="text-justify 
+                 p-25  bg-primary/35 
+                 grid grid-cols-1 sm:grid-cols-1 md:-cols-3 lg:grid-cols-3 xl:grid-4 gap-4
+                 text-pretty sm:text-pretty lg:text-pretty xl:text-wrap 
+                 sm:tracking-tight md:tracking-normal lg:tracking-normal xl:tracking-wider">
 
 
-
-        <header class="text-center  mt-0 my-10  text-3xl font-bold p-6  border border-white-600  bg-secondary">
+        <header class="text-center        xl:text-wrap   my-10    text-3xl font-bold p-6  rounded-lg      bg-sky-400/20 shadow-lg shadow-blue-500/40 rotate-2   lg:col-span-3  xl:col-span-4  ">
            <section class="header">
               <h1>3</h1>   
               <h2>Agile software development</h2>
            </section>
         </header>
 
-        <section class="bg-neutral p-6 mb-10">
+        <section class="text-justify    mb-5  text-md p-6  rounded-lg  bg-sky-400/20 shadow-lg shadow-blue-500/40    md:p-10   lg:p-15 xl:p-20     lg:col-span-3  xl:col-span-4 ">
 
-            <h3 class="text-center text-2xl  my-5">
+            <h3 class="text-center text-3xl  mb-10">
                 Objectives
             </h3>
-            <p>The objective of this chapter is to introduce you to agile softwaredevelopment methods. When you have read the chapter, you will:</p>
+            <p>The objective of this chapter is to introduce you to agile software development methods. When you have read the chapter, you will:</p>
+
+            <br>
         
-            <ul>
+            
                 <li>understand the rationale for agile software development methods,the agile manifesto, and the differences between agile and plandriven development;</li>
                 <li>know the key practices in extreme programming and how these relate to the general principles of agile methods;</li>
                 <li>understand the Scrum approach to agile project management;</li>
                 <li>understand the concepts of user stories, story points, and velocity;</li>
                 <li>be aware of the issues and problems of scaling agile developmentmethods to the development of large software systems.</li>
-            </ul>
+            
 
-            <h4 class="text-center   text-2xl my-5">Contents</h4>
+        </section>  
+
+
+    
+        <section class=" mt-0   text-md p-6  rounded-lg    bg-sky-400/20 shadow-lg shadow-blue-500/40    md:p-10 lg:p-15 xl:p-20   lg:col-span-3  xl:col-span-4  ">
+
+            <h4 class="text-center   text-3xl mb-5">Contents</h4>
 
             <p>
                 3.1 Agile methods <br>
@@ -66,18 +77,13 @@
         </section>
 
 
-        <section class="text-right my-0">
+        <section class="text-right my-10 lg:col-span-3 xl:col-span-4">
                 <p>Chapter 3 ■ Agile software development <strong>57</strong></p>
         </section>
-        <!-- "bg-neutral-700/75 p-19 mb-10  article-->
+        
+        <article class="lg:col-span-3 xl:col-span-4">
 
-        <article class="">
-
-            <section class="topic">
-                <p>Chapter 3 ■ Agile software development <strong>57</strong></p>
-            </section>
-
-            <section class="bg-neutral  rounded-2xl p-15 mb-10">
+            <section class="text-md p-6  rounded-lg         bg-sky-400/20 shadow-lg shadow-blue-500/40    md:p-10 lg:p-15 xl:p-20     lg:col-span-3  xl:col-span-4   ">
                <p>Businesses now operate in a global, rapidly changing environment. They have to respond to new opportunities and markets, changing economic conditions, and the
                  emergence of competing products and services. Software is part of almost all business operations so new software is developed quickly to take advantage of new
                  opportunities and to respond to competitive pressure. Rapid development and delivery is therefore now often the most critical requirement for software systems. In fact,
@@ -100,12 +106,16 @@
                     specification-based process is usually prolonged and the final software is delivered to the customer long after it was originally specified.
                 </p>
 
+                <br>
+
                 <p>
                    For some types of software, such as safety-critical control systems, where a complete analysis of the system is essential, a plan-driven approach is the right one.
                    However, in a fast-moving business environment, this can cause real problems. By the time the software is available for use, the original reason for its procurement may
                    have changed so radically that the software is effectively useless. Therefore, for business systems in particular, development processes that focus on rapid software
                    development and delivery are essential. 
                 </p>
+                
+                <br>
 
                 <p>
                    The need for rapid system development and processes that can handle changing
@@ -114,10 +124,16 @@
                   (Stapleton, 1997), Scrum (Schwaber and Beedle, 2001), and extreme programming (Beck, 1999; Beck, 2000).</p>
 
                </p>
+
+               <br>
+
+                <p>
                   Rapid software development processes are designed to produce useful software quickly. The software is not developed as a single unit but as a series of increments, with
                   each increment including new system functionality. Although there are many
                   approaches to rapid software development, they share some fundamental characteristics:
                 </p>
+
+                <br>
             
                <p>
                   1. The processes of specification, design, and implementation are interleaved.There is no detailed 
@@ -125,15 +141,18 @@
                 </p>
             </section>
 
-            <section class="flex-justify-center">
+            <section class="text-right my-10 lg:col-span-3 xl:col-span-4">
                <p><strong>58</strong> Chapter 3 ■ Agile software development</p>
             </section>
 
-            <section class="psec">
+            <section class="  my-10  text-md p-6  rounded-lg  bg-sky-400/20 shadow-lg shadow-blue-500/40  md:p-10  lg:col-span-3 lg:p-15 xl:col-span-4 xl:p-20 ">
+
                 <p>
                     implement the system. The user requirements document only defines the most important characteristics of the system.
+                    <br>
                     <br>2. The system is developed in a series of versions. End-users and other system stakeholders are involved in specifying and evaluating each version. They may
                     propose changes to the software and new requirements that should be implemented in a later version of the system.
+                    <br>
                     <br>3. System user interfaces are often developed using an interactive development
                     system that allows the interface design to be quickly created by drawing and placing icons on the interface. The system may then generate a web-based interface for
                     a browser or an interface for a specific platform such as Microsoft Windows.
@@ -150,17 +169,19 @@
                 </p>
             </section>
 
-            <section class="topic">
+            <section class="text-right my-10 lg:col-span-3 xl:col-span-4">
                 <h3>3.1 Agile methods</h3>
             </section>
 
-            <section class="psec">
+            <section class="my-10  text-md p-6  rounded-lg  bg-sky-400/20 shadow-lg shadow-blue-500/40  md:p-10  lg:col-span-3 lg:p-15 xl:col-span-4 xl:p-20">
 
             <p>
                 In the 1980s and early 1990s, there was a widespread view that the best way to achieve better software was through careful project planning, formalized quality
                 assurance, the use of analysis and design methods supported by CASE tools, and controlled and rigorous software development processes. This view came from the
                 software engineering community that was responsible for developing large, longlived software systems such as aerospace and government systems.
             </p>
+
+            <br>
 
             <p>
                 This software was developed by large teams working for different companies. Teams were often geographically dispersed and worked on the software for long periods of
@@ -169,6 +190,8 @@
                 has to be coordinated, when the system is a critical system, and when many different
                 people will be involved in maintaining the software over its lifetime.
             </p>
+
+            <br>
 
             <p>
                 However, when this heavyweight, plan-driven development approach is applied to small and medium-sized business systems, the overhead involved is so large that it
@@ -179,6 +202,8 @@ and design has to change with the program.
 
             </p>
 
+            <br>
+
             <p>
                 Dissatisfaction with these heavyweight approaches to software engineering led a
 number of software developers in the 1990s to propose new ‘agile methods’. These
@@ -187,22 +212,27 @@ allowed the development team to focus on the software itself rather than on its 
 
             </section>
 
-            <section  class="topic">
+            <section  class="text-right my-10 lg:col-span-3 xl:col-span-4">
                 <p>3.1 ■ Agile methods 59</p>
             </section>
 
-            <section class="psec">
+            <section class="my-10  text-md p-6  rounded-lg  bg-sky-400/20 shadow-lg shadow-blue-500/40  md:p-10  lg:col-span-3 lg:p-15 xl:col-span-4 xl:p-20">
+
                 <p>
                     and documentation. Agile methods universally rely on an incremental approach to software specification, development, and delivery. They are best suited to application development where the system requirements usually change rapidly during the development
 process. They are intended to deliver working software quickly to customers, who can
 then propose new and changed requirements to be included in later iterations of the system. They aim to cut down on process bureaucracy by avoiding work that has dubious
 long-term value and eliminating documentation that will probably never be used.
                 </p>
+
+                <br>
                  
                 <p>
                     The philosophy behind agile methods is reflected in the agile manifesto that was
 agreed on by many of the leading developers of these methods. This manifesto states:
                 </p>
+
+                <br>
             
                 <p>
                     We are uncovering better ways of developing software by doing it and helping
@@ -214,6 +244,8 @@ Responding to change over following a plan
 That is, while there is value in the items on the right, we value the items on the
 left more
                 </p>
+
+                <br>
 
            
                 <p>
@@ -228,6 +260,8 @@ the notion of agile modelling (Ambler and Jeffries, 2002) and agile instantiatio
 the Rational Unified Process (Larman, 2002).
                 </p>
 
+                <br>
+
 
                 <p>
                     Although these agile methods are all based around the notion of incremental development and delivery, they propose different processes to achieve this. However, they
@@ -237,9 +271,13 @@ focus on two of the most widely used methods: extreme programming (Section 3.3) 
 Scrum (Section 3.4).
                 </p>
 
+                <br>
+
                  <p>
                     Agile methods have been very successful for some types of system development:
                  </p> 
+
+                 <br>
 
             
                 <p>
@@ -254,9 +292,13 @@ where there are not a lot of external rules and regulations that affect the soft
             
             </section>
 
-            <section id="image1">
+            
+
+            <section  class="  mx-5 sm:mx-10 md:mx-15 lg:mx-20 xl:mx-30 my-20 lg:col-span-3 xl:col-span-4   ">
                 <img src="images/ChapterThree/image.png" alt="">
             </section>
+
+            
 
             <section class="psec">
                 <p>
