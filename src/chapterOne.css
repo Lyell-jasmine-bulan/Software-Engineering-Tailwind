@@ -1,3 +1,133 @@
-.chapter1-home{
-    @apply bg-primary
+
+.chapter1-app-container {
+  @apply min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-gray-100;
 }
+
+.chapter1-main-content {
+  @apply max-w-7xl mx-auto p-8 sm:p-12 lg:p-16;
+}
+
+
+.chapter1-card {
+  @apply bg-gray-800 rounded-xl shadow-md mb-8 border border-gray-700 text-center;
+}
+.chapter1-card-header, .chapter1-card-content {
+  @apply p-6;
+}
+
+
+.hero-section {
+  @apply bg-gradient-to-r from-indigo-700 to-purple-700 rounded-2xl p-8 sm:p-12 mb-8 text-white shadow-xl;
+}
+.hero-content {
+  @apply flex flex-col gap-6 md:flex-row md:items-center md:justify-between;
+}
+.hero-icon {
+  @apply hidden md:flex w-64 h-64 bg-white/10 rounded-full items-center justify-center backdrop-blur-sm;
+}
+
+/* Buttons */
+.btn {
+  @apply inline-flex items-center gap-2 px-6 py-3 rounded-md cursor-pointer transition-all duration-200;
+}
+.btn-primary {
+  @apply bg-purple-600 hover:bg-purple-700 text-white;
+}
+
+/* Lists */
+.numbered-list, .contents-list, .key-points-list, .reference-list {
+  @apply flex flex-col gap-3;
+}
+.number-badge {
+  @apply w-6 h-6 rounded-full bg-emerald-700 text-white flex items-center justify-center mt-1;
+}
+.contents-item {
+  @apply flex items-center gap-3 p-3 rounded-md cursor-pointer hover:bg-purple-700/30 transition;
+}
+.contents-number {
+  @apply px-3 py-1 bg-purple-600 text-white rounded-md;
+}
+
+/* Tables */
+.custom-table {
+  @apply w-full border-collapse my-4;
+}
+.custom-table th, .custom-table td {
+  @apply p-4 border border-gray-700 text-left align-top;
+}
+.custom-table th {
+  @apply bg-gray-800 text-gray-300;
+}
+.custom-table tr:hover {
+  @apply bg-gray-700/40;
+}
+
+/* Alerts */
+.alert-box {
+  @apply p-4 rounded-md flex items-start gap-3;
+}
+.alert-blue { @apply bg-blue-900/40 border-l-4 border-blue-600; }
+.alert-red { @apply bg-red-900/40 border-l-4 border-red-600; }
+.alert-green { @apply bg-green-900/40 border-l-4 border-green-600; }
+
+/* Tabs */
+.tabs-list {
+  @apply grid grid-cols-3 gap-1 bg-gray-800 p-1 rounded-md mb-4;
+}
+.tab-trigger {
+  @apply flex items-center justify-center px-4 py-3 rounded-md cursor-pointer transition hover:bg-gray-700;
+}
+.tab-trigger.active {
+  @apply bg-gray-700 text-white;
+}
+.tab-content {
+  @apply hidden;
+}
+.tab-content.active {
+  @apply block;
+}
+
+/* Accordion */
+.accordion-item {
+  @apply border-b border-gray-700;
+}
+.accordion-trigger {
+  @apply w-full flex items-center justify-between py-4 cursor-pointer text-left hover:text-purple-400;
+}
+.accordion-icon {
+  @apply w-5 h-5 transition-transform;
+}
+.accordion-trigger.active .accordion-icon {
+  @apply rotate-180;
+}
+.accordion-content {
+  @apply max-h-0 overflow-hidden transition-[max-height] duration-300;
+}
+.accordion-content.active {
+  @apply max-h-[500px];
+}
+.accordion-content-inner {
+  @apply p-4 bg-gray-800 rounded-md ml-14 mb-4 border border-gray-700;
+}
+
+/* Key Points */
+.key-point-item {
+  @apply flex items-start gap-3 p-3 rounded-md bg-yellow-900/30 hover:bg-yellow-800/30;
+}
+.key-point-dot {
+  @apply w-2 h-2 rounded-full bg-yellow-400 mt-2;
+}
+
+/* Reading List */
+.reading-item {
+  @apply p-4 rounded-md border-l-4 border-green-600 bg-green-900/30;
+}
+
+
+
+
+
+
+
+
+
