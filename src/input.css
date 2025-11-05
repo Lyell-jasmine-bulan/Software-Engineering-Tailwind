@@ -16,22 +16,14 @@
   .text-primary {
     color: var(--color-background);
   }
-
+  .text-secondary {
+    color: var(--color-foreground);
+  }
   .bg-primary {
     background-color: var(--color-primary);
   }
   .bg-secondary {
     background-color: var(--color-secondary);
-  }
-  .bg-neutral {
-    background-color: var(--color-neutral);
-  }
-
-  .border-primary {
-    border-color: var(--color-foreground);
-  }
-  .fill-primary {
-    fill: var(--color-foreground);
   }
 }
 
@@ -59,7 +51,7 @@
 }
 
 .navbar {
-  @apply fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/10 p-10;
+  @apply fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/10;
 }
 
 .nav-content {
