@@ -1,6 +1,8 @@
 @import "tailwindcss";
  
 
+
+
 @theme {
   --color-primary: #0284c74d  ;
   --color-secondary: #38bdf833 ;    
@@ -279,3 +281,9 @@
  
  
 }
+
+
+@import "./chapterOne.css";
+@import "./chapterTwo.css";
+@import "./chapterThree.css";
+@import "./chapterFour.css";
