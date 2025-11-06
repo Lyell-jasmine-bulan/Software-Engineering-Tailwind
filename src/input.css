@@ -1,4 +1,5 @@
 @import "tailwindcss";
+ 
 
 @import "./chapterOne.css";
 @import "./chapterTwo.css";
@@ -28,9 +29,13 @@
 }
 
 @font-face {
-  font-family: "myfont";
-  src: url();
+    font-family: 'myfont';
+    src: url(ChapterFour/college.ttf);
+    font-family: 'myfont', Arial, Helvetica, sans-serif;
 }
+
+
+
 
 @layer base {
   * {
@@ -38,11 +43,13 @@
   }
 
   html {
-    @apply scroll-smooth;
+    @apply scroll-smooth
+     
   }
 
   body {
     @apply font-sans bg-black text-white min-h-screen leading-relaxed;
+       
   }
 }
 
@@ -50,9 +57,10 @@
   @apply max-w-[1280px] mx-auto px-6;
 }
 
-.navbar {
-  @apply fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/10;
-}
+  /* Navbar */
+  .navbar {
+    @apply fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/10 ;
+  }
 
 .nav-content {
   @apply flex items-center justify-between py-4;
@@ -265,4 +273,7 @@
   .nav-links {
     @apply flex;
   }
+
+ 
+ 
 }

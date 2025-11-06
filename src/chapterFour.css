@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+.body{
+    @apply m-30 p-3
+}
+.chapterFour{
+    @apply m-20;
+}
+
+.requirments{
+    @apply bg-cyan-950 shadow-lg shadow-cyan-500/50  text-center text-2xl ring rounded-md font-semibold;
+}
+
+.objectives1{
+    @apply bg-secondary shadow-lg shadow-cyan-500/50 rounded-md  p-10;
+}
+.objectives2{
+    @apply text-center text-2xl;
+}
+
+.context1{
+    @apply bg-secondary shadow-lg shadow-cyan-500/50  rounded-md  p-10;
+}
+.context2{
+    @apply text-center text-2xl;
+}
+
+
+/*main*/
+.main{
+    @apply bg-cyan-950 p-10 m-4 rounded-md text-justify;
+}
+
+.chapter4{
+    @apply font-semibold text-xl p-3;
+}
+.chapter4-right{
+    @apply font-semibold text-xl text-right;
+}
+.chapter4-left{
+    @apply font-semibold text-xl text-left p-2;
+}
+
+.chapter4-User{
+    @apply bg-gray-600 rounded-md p-3 m-4;
+}
+.chapter4-User1{
+    @apply font-semibold;
+}
+
+.chapter4-bg{
+    @apply  bg-gray-600 rounded-md p-3 m-4;
+}
+
+.chapter4-User2{
+    @apply font-semibold  text-2xl text-center;
+}
+
+
+.chapter4-figure{
+    @apply text-right text-justify font-semibold;
+}
+
+
+.chapter4-function{
+    @apply font-semibold p-2;
+}
+
+
+.chapter4-bg1{
+    @apply  bg-gray-600 rounded-md p-3 m-4 text-center;
+}
+
+.chapter4-pic{
+    @apply flex items-center justify-center;
+}
+
+.chapter4-link{
+    @apply text-center justify-center;
+}
+
+.chapter4-1{
+@apply font-semibold p-3;
+}
+
+
+/*footer*/
+
+.chapter4-footer{
+   @apply border-3 border-white justify-center  p-6  m-10 rounded-md; 
+}
+
+.chapter4-reference{
+    @apply p-3 underline underline-offset-1;
+}
