@@ -1,3 +1,100 @@
-.chapter1-home{
-    @apply bg-primary
+/* 
+
+.chapter1-main-content {
+  @apply max-w-7xl mx-auto p-8 sm:p-12 lg:p-16 mt-16;
+}
+
+.chapter1-card {
+  @apply bg-[--color-background] rounded-xl shadow-md mb-8 text-center;
+}
+.chapter1-card-header, .chapter1-card-content {
+  @apply p-12 text-3xl;
+}
+
+
+.chapter1-hero-section {
+  @apply border-2 border-[var(--color-primary)] rounded-2xl p-8 sm:p-12 mb-8 text-[var(--color-foreground)] shadow-xl;
+}
+.chapter1-hero-content {
+  @apply flex flex-col gap-6 md:flex-row md:items-center md:justify-between;
+}
+
+.chapter1-btn {
+  @apply inline-flex items-center gap-2 px-6 py-3 rounded-md cursor-pointer transition-all duration-200;
+}
+.chapter1-btn-primary {
+  @apply bg-[var(--color-primary)] text-white;
+}
+
+
+
+.chapter1-custom-table {
+  @apply w-full border-collapse my-4;
+}
+.chapter1-custom-table th, .chapter1-custom-table td {
+  @apply p-4 border border-[var(--color-primary)] text-left align-top;
+}
+.chapter1-custom-table th {
+  @apply bg-[var(--color-background)] text-[var(--color-foreground)];
+}
+.chapter1-custom-table tr:hover {
+  @apply bg-[var(--color-primary)]
+}
+
+
+
+
+
+
+
+
+
+
+  */
+
+ 
+.chapter1-main {
+  @apply max-w-7xl mx-auto p-4 mt-20 sm:p-20 lg:p-40;
+}
+
+.chapter1-section {
+  @apply mb-16 scroll-mt-[20vh];
+}
+
+.chapter1-section h1 {
+  @apply text-4xl font-semibold text-[var(--color-foreground)] mb-6 tracking-tight leading-snug;
+}
+
+.chapter1-section h2 {
+  @apply text-3xl font-semibold text-[var(--color-foreground)] mb-6 tracking-tight leading-snug;
+}
+
+.chapter1-section p {
+  @apply text-gray-400 mb-4;
+}
+
+/* ---------- TABLE ---------- */
+.chapter1-table {
+  @apply w-full border-collapse my-8 bg-[var(--color-background)] rounded-lg overflow-hidden shadow-sm;
+}
+
+.chapter1-th, th,
+.chapter1-td, td {
+  @apply p-4 text-left border-b border-gray-300;
+}
+
+th {
+  @apply bg-[var(--color-foreground)] font-semibold text-[var(--color-background)] text-sm uppercase tracking-wider;
+}
+
+td {
+  @apply text-[var(--color-foreground)] text-sm;
+}
+
+.chapter1-tr:last-child .chapter1-td {
+  @apply border-b-0;
+}
+
+.chapter1-img {
+  @apply block mx-auto my-8 max-w-full h-auto rounded-lg;
 }
