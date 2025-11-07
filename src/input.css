@@ -26,27 +26,27 @@
   .bg-secondary {
     background-color: var(--color-secondary);
   }
-
 }
 
 @font-face {
     font-family: 'myfont';
     src: url(ChapterFour/college.ttf);
+    font-family: 'myfont', Arial, Helvetica, sans-serif;
 }
 
-
+.myFont {
+    font-family: 'myfont', Arial, Helvetica, sans-serif;
+}
 
 
 
 @layer base {
   * {
-    @apply m-0 p-0 box-border ;
+    @apply m-0 p-0 box-border;
   }
 
   html {
     @apply scroll-smooth
-    
-
      
   }
 
@@ -55,6 +55,17 @@
        
   }
 }
+
+
+.scroll-link-grid {
+@apply grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-4;
+}
+
+
+.scroll-link {
+@apply relative block rounded-2xl p-4 ring-1 ring-white/10 transition-transform transform hover:scale-[1.02] shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-indigo-500 bg-white/5 backdrop-blur-sm;
+}
+
 
 .container {
   @apply max-w-[1280px] mx-auto px-6;
@@ -110,7 +121,7 @@
   @apply text-xl text-gray-400 mb-12 max-w-2xl mx-auto;
 }
 
-.btn-hero {
+ .btn-hero {
   @apply bg-white text-black px-10 py-4 rounded-md text-base font-medium cursor-pointer transition duration-300 hover:bg-gray-200 shadow-[0_10px_15px_-3px_rgba(255,255,255,0.1)];
 }
 
@@ -279,4 +290,8 @@
 
  
  
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b2f0c36ec96497af5f5f4204d696e81a90399aa1
