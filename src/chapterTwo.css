@@ -8,11 +8,11 @@
 }
 
 .chapter2-main{
-  @apply p-30 m-5 text-pretty sm:text-pretty lg:text-pretty xl:text-wrap
+  @apply mt-10 flex flex-col items-center text-center sm:text-left sm:items-start
 }
 
 .chapter2-header{
-  @apply bg-[var(--color-background)] rounded-lg p-15 m-10
+  @apply bg-[var(--color-background)] rounded-lg p-30 m-10
 }
 
 .chapter2-section{
@@ -20,11 +20,11 @@
 }
 
 .chapter2-h1{
-  @apply font-bold text-3xl
+  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold
 }
 
 .chapter2-article{
-  @apply text-left sm:text-center
+  @apply text-left sm:text-center p-10
 }
 
 .chapter2-img{
