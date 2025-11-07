@@ -58,7 +58,7 @@
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --color-primary: #0284c74d;
-    --color-secondary: #242424;
+    --color-secondary: #38bdf833;
     --color-background: #000000;
     --color-foreground: #ffffff;
   }
@@ -422,7 +422,6 @@ td {
 }
 .chapter2-header {
   margin: calc(var(--spacing) * 10);
-  justify-content: center;
   border-radius: var(--radius-lg);
   background-color: var(--color-background);
   padding: calc(var(--spacing) * 15);
@@ -662,7 +661,7 @@ td {
   margin-block: calc(var(--spacing) * 10);
   rotate: 2deg;
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -694,7 +693,7 @@ td {
 .chapter3-objective {
   margin-bottom: calc(var(--spacing) * 5);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -739,7 +738,7 @@ td {
 .chapter3-content {
   margin-top: calc(var(--spacing) * 0);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -806,7 +805,7 @@ td {
 }
 .chapter3-article_section1 {
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -848,7 +847,7 @@ td {
 .chapter3-article_section2 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -899,7 +898,7 @@ td {
 .chapter3-article_section3 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -950,7 +949,7 @@ td {
 .chapter3-article_section4 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1005,7 +1004,7 @@ td {
 .chapter3-article_section5 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1056,7 +1055,7 @@ td {
 .chapter3-article_section6 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1107,7 +1106,7 @@ td {
 .chapter3-article_section7 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1158,7 +1157,7 @@ td {
 .chapter3-article_section8 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1226,7 +1225,7 @@ td {
 .chapter3-article_section9 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1277,7 +1276,7 @@ td {
 .chapter3-article_section10 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1328,7 +1327,7 @@ td {
 .chapter3-article_section11 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1396,7 +1395,7 @@ td {
 .chapter3-article_section12 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1464,7 +1463,7 @@ td {
 .chapter3-article_section13 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1519,7 +1518,7 @@ td {
 .chapter3-article_section14 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1587,7 +1586,7 @@ td {
 .chapter3-article_section15 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1651,7 +1650,7 @@ td {
 .chapter3-article_section16 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1719,7 +1718,7 @@ td {
 .chapter3-article_section17 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1770,7 +1769,7 @@ td {
 .chapter3-article_section18 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1821,7 +1820,7 @@ td {
 .chapter3-article_section19 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1872,7 +1871,7 @@ td {
 .chapter3-article_section20 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1923,7 +1922,7 @@ td {
 .chapter3-article_section21 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -1974,7 +1973,7 @@ td {
 .chapter3-article_section22 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2042,7 +2041,7 @@ td {
 .chapter3-article_section23 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2093,7 +2092,7 @@ td {
 .chapter3-article_section24 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2144,7 +2143,7 @@ td {
 .chapter3-article_section25 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2195,7 +2194,7 @@ td {
 .chapter3-article_section26 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2246,7 +2245,7 @@ td {
 .chapter3-article_section27 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2297,7 +2296,7 @@ td {
 .chapter3-article_section28 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2335,7 +2334,7 @@ td {
 .chapter3-keypoints {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2393,7 +2392,7 @@ td {
 .chapter3-article_section29 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2462,7 +2461,7 @@ td {
 .chapter3-article_section31 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2531,7 +2530,7 @@ td {
 .chapter3-article_section32 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -2582,7 +2581,7 @@ td {
 .chapter3-article_section33 {
   margin-block: calc(var(--spacing) * 10);
   border-radius: var(--radius-lg);
-  background-color: color-mix(in srgb, #242424 50%, transparent);
+  background-color: color-mix(in srgb, #38bdf833 50%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     background-color: color-mix(in oklab, var(--color-secondary) 50%, transparent);
   }
@@ -3014,6 +3013,9 @@ td {
   src: url(ChapterFour/college.ttf);
   font-family: 'myfont', Arial, Helvetica, sans-serif;
 }
+.myFont {
+  font-family: 'myfont', Arial, Helvetica, sans-serif;
+}
 @layer base {
   * {
     margin: calc(var(--spacing) * 0);
@@ -3048,7 +3050,7 @@ td {
   display: block;
   transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   border-radius: var(--radius-2xl);
-  background-color: var(--color-secondary);
+  background-color: color-mix(in oklab, var(--color-white) 5%, transparent);
   padding: calc(var(--spacing) * 4);
   --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
   --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
