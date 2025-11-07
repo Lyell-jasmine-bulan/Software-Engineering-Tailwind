@@ -1,34 +1,66 @@
 @import "tailwindcss";
+/*CHAPTER 4*/
 
-.body{
-    @apply m-30 p-3
+/*header*/
+.chapter4-body{
+    @apply m-10 p-3
 }
 .chapterFour{
     @apply m-20;
 }
 
 .requirments{
-    @apply bg-cyan-950 shadow-lg shadow-cyan-500/50  text-center text-2xl ring rounded-md font-semibold;
+     @apply bg-secondary shadow-lg shadow-cyan-500/50 text-center text-2xl rounded-lg font-semibold;
 }
 
-.objectives1{
-    @apply bg-secondary shadow-lg shadow-cyan-500/50 rounded-md  p-10;
-}
-.objectives2{
-    @apply text-center text-2xl;
+
+
+.chapterFour {
+  @apply m-20 space-y-10;
 }
 
-.context1{
-    @apply bg-secondary shadow-lg shadow-cyan-500/50  rounded-md  p-10;
+
+/*objectives&contents*/
+
+.chapter4-objectives1{
+    @apply self-center text-center text-2xl;
 }
-.context2{
-    @apply text-center text-2xl;
+.chapter4-objectives,
+.chapter4-context {
+  @apply bg-secondary shadow-lg shadow-cyan-500/50 rounded-xl p-8 
+  text-2xl text-center font-semibold ;
+}
+.chapter4-text{
+    @apply text-left;
+}
+
+
+
+.toggle-btn {
+  @apply text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition duration-300;
+}
+
+
+.toggle-content {
+  @apply mt-4 transition-all duration-500 ease-in-out overflow-hidden;
+}
+
+
+.hidden {
+  display: none;
+}
+/*heder*/
+
+
+/*grid*/
+.sections-grid {
+  @apply grid sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6;
 }
 
 
 /*main*/
-.main{
-    @apply bg-cyan-950 p-10 m-4 rounded-md text-justify;
+.chapter4-main{
+    @apply bg-secondary p-10 m-20 rounded-md text-justify shadow-lg shadow-cyan-500/50 shadow-md;
 }
 
 .chapter4{
@@ -49,11 +81,11 @@
 }
 
 .chapter4-bg{
-    @apply  bg-gray-600 rounded-md p-3 m-4;
+    @apply  bg-gray-600 rounded-sm rounded-md rounded-lg rounded-xl p-3 m-4 text-justify; 
 }
 
 .chapter4-User2{
-    @apply font-semibold  text-2xl text-center;
+    @apply font-semibold  text-2xl text-center ;
 }
 
 
@@ -68,11 +100,11 @@
 
 
 .chapter4-bg1{
-    @apply  bg-gray-600 rounded-md p-3 m-4 text-center;
+    @apply  bg-gray-600 rounded-md p-3 m-3 text-center rounded-sm rounded-md rounded-lg rounded-xl  mx-100;
 }
 
 .chapter4-pic{
-    @apply flex items-center justify-center;
+    @apply flex items-center justify-center p-3 mx-100 hover:scale-105 bg-secondary rounded-md;
 }
 
 .chapter4-link{
