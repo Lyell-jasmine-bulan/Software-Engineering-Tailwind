@@ -1,14 +1,32 @@
+.chapter2-body{
+  @apply bg-black min-h-screen flex flex-col items-center justify-center text-white space-y-8
+  } 
+          
 
-  * {
-    @apply m-0 p-0 box-border;
-  }
+.chapter2-btn{
+  @apply bg-primary rounded-lg text-center p-4 m-30 text-3xl bg-blue-500 shadow-lg shadow-blue-500/50 font-bold
+}
 
-  html {
-    @apply scroll-smooth;
-  }
+.chapter2-main{
+  @apply p-30 m-5 text-pretty sm:text-pretty lg:text-pretty xl:text-wrap
+}
 
-  body {
-    @apply font-sans bg-black text-white min-h-screen leading-relaxed;
-  }
+.chapter2-header{
+  @apply bg-[var(--color-background)] rounded-lg p-15 m-10
+}
 
-  
+.chapter2-section{
+  @apply bg-primary rounded-lg p-15 m-10 bg-blue-500 shadow-lg shadow-blue-500/50
+}
+
+.chapter2-h1{
+  @apply font-bold text-3xl
+}
+
+.chapter2-article{
+  @apply text-left sm:text-center
+}
+
+.chapter2-img{
+  @apply rounded-lg
+}
