@@ -12,7 +12,7 @@
 }
 
 .chapter2-header{
-  @apply bg-[var(--color-background)] rounded-lg p-30 m-10
+  @apply bg-[var(--color-background)] rounded-lg p-10 m-10
 }
 
 .chapter2-section{
