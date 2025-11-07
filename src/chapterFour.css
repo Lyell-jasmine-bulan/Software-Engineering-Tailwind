@@ -25,11 +25,19 @@
 .chapter4-objectives1{
     @apply self-center text-center text-2xl;
 }
+
 .chapter4-objectives,
 .chapter4-context {
-  @apply bg-secondary shadow-lg shadow-cyan-500/50 rounded-xl p-8 
-  text-2xl text-center font-semibold ;
+  @apply bg-secondary shadow-sm shadow-white rounded-xl p-8 
+   text-center font-semibold m-4;
 }
+
+.chapter4-function{
+  @apply bg-secondary shadow-sm shadow-white rounded-xl p-8 
+   text-center font-semibold m-8;
+}
+
+
 .chapter4-text{
     @apply text-left;
 }
