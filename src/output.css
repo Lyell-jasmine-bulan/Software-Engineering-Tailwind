@@ -2897,7 +2897,7 @@ td {
     --tw-shadow-color: color-mix(in oklab, var(--color-white) var(--tw-shadow-alpha), transparent);
   }
 }
-.chapter4-function {
+.chapter4-function0 {
   margin: calc(var(--spacing) * 8);
   border-radius: var(--radius-xl);
   background-color: var(--color-secondary);
