@@ -17,7 +17,7 @@
 }
 
 .chapter1-section p {
-  @apply text-gray-400 mb-4;
+  @apply text-[var(--color-secondary)] mb-4;
 }
 
 
