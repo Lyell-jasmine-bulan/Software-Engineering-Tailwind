@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <nav class="navbar ">
+    <nav class="navbar">
         <div class="container">
             <div class="nav-content">
                 <div class="nav-logo">
@@ -26,26 +26,30 @@
             </div>
         </div>
     </nav>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
-    <header>
-        <h1 class="bg-sky-400/20 rounded-lg p-15 m-10 text-center text-3xl bg-blue-500 shadow-lg shadow-blue-500/50">Software Engineering - Chapter 2 Software Processes</h1>      
+
+
+    
+
+    <main class="chapter2-main">
+
+    <header class="chapter2-header">
+        <h1 class="chapter2-section chapter2-h1 text-center">Chapter 2 Software Processes</h1>  
+        <article class="scroll-link-grid">
+            <a href="#2.1" class="scroll-link">Software process models</a>   
+            <a href="#2.2" class="scroll-link">Process activities</a>
+            <a href="#2.3" class="scroll-link">Coping with change</a>
+            <a href="#2.4" class="scroll-link">The Rational Unified Process</a>
+        </article> 
     </header>
 
-    <br>
-    
-    <main>
-
-    <section class="bg-sky-600/30 rounded-lg p-15 m-10 bg-blue-500 shadow-lg shadow-blue-500/50 ">
-        <article>
-            <h1 class=" ">Objectives</h1>
+    <section class="chapter2-section">
+        <article">
+            <h1 class="chapter2-h1">Objectives</h1>
         </article>
-        <article> <p>The objective of this chapter is to introduce you to the idea of a software
+        <br>
+        <article> 
+                    <p>The objective of this chapter is to introduce you to the idea of a software
                      process—a coherent set of activities for software production. When you
                      have read this chapter you will:</p>
          </article>
@@ -63,10 +67,12 @@
         <li>understand how the Rational Unified Process integrates good software
         engineering practice to create adaptable software processes.</li>
    </ul>
+   <br>
 
          </article>
          <article>
-             <h1>Contents</h1>
+             <h1 class="chapter2-h1" >Contents</h1>
+             <br>
             <p><b>2.1</b>  Software process models</p>
             <p><b>2.2</b>  Process activities</p>
             <p><b>2.3</b>  Coping with change</p>
@@ -81,17 +87,18 @@
     <br>
 
     <!-- 2nd page -->
-    <section>
+     <article class="chapter2-article" id="2.1">
+        <p><b>8</b> Chapter 2 ■ Software processes</p>
+     </article>
+    
+    <section class="chapter2-section">
         <article>
-            <p><b>8</b> Chapter 2 ■ Software processes</p>
-        </article>
-        <article>
-            <p>A software process is a set of related activities that leads to the production of a software product. These activities may involve the development of software from scratch
-in a standard programming language like Java or C. However, business applications
-are not necessarily developed in this way. New business software is now often developed by extending and modifying existing systems or by configuring and integrating
-off-the-shelf software or system components.
-There are many different software processes but all must include four activities
-that are fundamental to software engineering:</p>
+        <p>A software process is a set of related activities that leads to the production of a software product. 
+            These activities may involve the development of software from scratch in a standard programming language like Java or C. However, business applications
+            are not necessarily developed in this way. New business software is now often developed by extending and modifying existing systems or by configuring and integrating
+            off-the-shelf software or system components.
+            There are many different software processes but all must include four activities
+            that are fundamental to software engineering:</p>
                 <ol>
                     <li>
                         Software specification The functionality of the software and constraints on its
@@ -134,10 +141,10 @@ may also include:</p>
                 </li>
             </ol>
         <p>Software processes are complex and, like all intellectual and creative processes,
-rely on people making decisions and judgments. There is no ideal process and most
-organizations have developed their own software development processes. Processes
-have evolved to take advantage of the capabilities of the people in an organization
-and the specific characteristics of the systems that are being developed. For some</p>
+            rely on people making decisions and judgments. There is no ideal process and most
+            organizations have developed their own software development processes. Processes
+            have evolved to take advantage of the capabilities of the people in an organization
+            and the specific characteristics of the systems that are being developed. For some</p>
        </article>
 
     </section>
@@ -146,11 +153,13 @@ and the specific characteristics of the systems that are being developed. For so
 
     <br>
 
-    <section>
-        <article>
+     <article class="chapter2-article">
             <p>2.1 ■ Software process models <b>29</b></p>
 
         </article>
+
+    <section class="chapter2-section">
+
         <article>
             <p>systems, such as critical systems, a very structured development process is required.
 For business systems, with rapidly changing requirements, a less formal, flexible
@@ -191,7 +200,7 @@ The process models that I cover here are:
 process phases such as requirements specification, software design, implementation, testing, and so on.</p>
         </article>
         <article>
-            <img src="images/ChapterTwo/Capture 1.PNG" alt="" >
+            <img src="images/ChapterTwo/Capture 1.PNG" alt="" class="chapter2-img" >
         </article>
         <article>
             <p>2. Incremental development This approach interleaves the activities of specification, development, and validation. The system is developed as a series of versions
@@ -214,11 +223,11 @@ incremental approach.</p>
     </section>
 
     <!-- 4th Page -->
-
-    <section>
-        <article>
+      <article class="chapter2-article">
             <h1>2.1.1 The waterfall model</h1>
         </article>
+
+    <section class="chapter2-section">
         <article>
             <p>The first published model of the software development process was derived from
 more general system engineering processes (Royce, 1970). This model is illustrated
@@ -228,32 +237,32 @@ a plan-driven process—in principle, you must plan and schedule all of the proc
 activities before starting work on them.</p>
 
  <p>The principal stages of the waterfall model directly reflect the fundamental development activities:</p>
-                <ol>
+               <ol>
                     <li>
-                         Requirements analysis and definition The system’s services, constraints, and
-goals are established by consultation with system users. They are then defined
-in detail and serve as a system specification.
+                        1.Requirements analysis and definition The system’s services, constraints, and
+                        goals are established by consultation with system users. They are then defined
+                        in detail and serve as a system specification.
                     </li>
                     <li>
-                        System and software design The systems design process allocates the requirements to either hardware or software systems by establishing an overall system
-architecture. Software design involves identifying and describing the fundamental software system abstractions and their relationships.
+                        2.System and software design The systems design process allocates the requirements to either hardware or software systems by establishing an overall system
+                        architecture. Software design involves identifying and describing the fundamental software system abstractions and their relationships.
                     </li>
                     <li>
-                        Implementation and unit testing During this stage, the software design is realized as a set of programs or program units. Unit testing involves verifying that
-each unit meets its specification.
+                        3.Implementation and unit testing During this stage, the software design is realized as a set of programs or program units. Unit testing involves verifying that
+                        each unit meets its specification.
                     </li>
                     <li>
-                         Integration and system testing The individual program units or programs
-are integrated and tested as a complete system to ensure that the software
-requirements have been met. After testing, the software system is delivered to
-the customer.
+                        4.Integration and system testing The individual program units or programs
+                        are integrated and tested as a complete system to ensure that the software
+                        requirements have been met. After testing, the software system is delivered to
+                        the customer.
                     </li>
                     <li>
-                        Operation and maintenance Normally (although not necessarily), this is the
-longest life cycle phase. The system is installed and put into practical use.
-Maintenance involves correcting errors which were not discovered in earlier
-stages of the life cycle, improving the implementation of system units and
-enhancing the system’s services as new requirements are discovered.
+                        5.Operation and maintenance Normally (although not necessarily), this is the
+                        longest life cycle phase. The system is installed and put into practical use.
+                        Maintenance involves correcting errors which were not discovered in earlier
+                        stages of the life cycle, improving the implementation of system units and
+                        enhancing the system’s services as new requirements are discovered.
                     </li>
                 </ol>
 
@@ -275,13 +284,8 @@ Program and design errors emerge and the need for new functionality is identifie
 The system must therefore evolve to remain useful. Making these changes (software
 maintenance) may involve repeating previous process stages.</p>
         </article>
-
-    </section>
-
-    <!-- 5th Page -->
-     <section>
         <article>
-            <img src="images/ChapterTwo/Capture 2.PNG" alt="">
+            <img src="images/ChapterTwo/Capture 2.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <p>The waterfall model is consistent with other engineering process models and documentation is produced at each phase. This makes the process visible so managers can
@@ -306,9 +310,6 @@ expertise. For the majority of systems this process does not offer significant c
 </p>
         </article>
         <article>
-            <h1>2.1.2 Incremental development</h1>
-        </article>
-        <article>
             <p>Incremental development is based on the idea of developing an initial implementation, exposing this to user comment and evolving it through several versions until an
 adequate system has been developed (Figure 2.2). Specification, development, and</p>
         </article>
@@ -316,10 +317,13 @@ adequate system has been developed (Figure 2.2). Specification, development, and
      </section>
 
      <!-- 6th Page -->
+      <article class="chapter2-article">
+            <h1>2.1.2 Incremental development</h1>
+        </article>
 
-     <section>
+     <section class="chapter2-section">
         <article>
-            <img src="images/ChapterTwo/Capture 3.PNG" alt="">
+            <img src="images/ChapterTwo/Capture 3.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <p>validation activities are interleaved rather than separate, with rapid feedback across
@@ -341,28 +345,25 @@ model:</p>
 
                 <ol>
                     <li>
-                        The cost of accommodating changing customer requirements is reduced. The
+                        1.The cost of accommodating changing customer requirements is reduced. The
             amount of analysis and documentation that has to be redone is much less than is
             required with the waterfall model.
                     </li>
                     <li>
-                        It is easier to get customer feedback on the development work that has been
+                        2.It is easier to get customer feedback on the development work that has been
             done. Customers can comment on demonstrations of the software and see how
             much has been implemented. Customers find it difficult to judge progress from
             software design documents.
                     </li>
                     <li>
-                        More rapid delivery and deployment of useful software to the customer is possible, even if all of the functionality has not been included. Customers are able to
+                        3.More rapid delivery and deployment of useful software to the customer is possible, even if all of the functionality has not been included. Customers are able to
             use and gain value from the software earlier than is possible with a waterfall
             process.
                     </li>
                 </ol>
 
-     <!-- 7th Page -->
-
-     <section>
         <article>
-            <img src="images/ChapterTwo/Capture`4.PNG" alt="">
+            <img src="images/ChapterTwo/Capture`4.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <p>Incremental development in some form is now the most common approach for the
@@ -373,12 +374,12 @@ customer priorities.</p>
      <p>From a management perspective, the incremental approach has two problems:</p>
                  <ol>
                     <li>
-                        The process is not visible. Managers need regular deliverables to measure
+                        1.The process is not visible. Managers need regular deliverables to measure
              progress. If systems are developed quickly, it is not cost-effective to produce
              documents that reflect every version of the system.
                     </li>
                     <li>
-                        System structure tends to degrade as new increments are added. Unless time and
+                        2.System structure tends to degrade as new increments are added. Unless time and
              money is spent on refactoring to improve the software, regular change tends to
              corrupt its structure. Incorporating further software changes becomes increasingly difficult and costly.
                     </li>
@@ -393,79 +394,63 @@ without actually delivering it and deploying it in the customer’s environment.
 Incremental delivery and deployment means that the software is used in real, operational processes. This is not always possible as experimenting with new software can
 disrupt normal business processes. I discuss the advantages and disadvantages of incremental delivery in Section 2.3.2.</p>
         </article>
-     </section>
-
-     <!-- 8th Page -->
-
-     <section>
         <article>
-            <img src="images/ChapterTwo/Capture 5.PNG" alt="">
-        </article>
-        <article>
-            <h1>2.1.3 Reuse-oriented software engineering</h1>
+            <img src="images/ChapterTwo/Capture 5.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <p>In the majority of software projects, there is some software reuse. This often happens
-informally when people working on the project know of designs or code that are
-similar to what is required. They look for these, modify them as needed, and incorporate them into their system.
-This informal reuse takes place irrespective of the development process that is
-used. However, in the 21st century, software development processes that focus on the
-reuse of existing software have become widely used. Reuse-oriented approaches rely
-on a large base of reusable software components and an integrating framework for
-the composition of these components. Sometimes, these components are systems in
-their own right (COTS or commercial off-the-shelf systems) that may provide specific functionality such as word processing or a spreadsheet.
-A general process model for reuse-based development is shown in Figure 2.3.
-Although the initial requirements specification stage and the validation stage are
-comparable with other software processes, the intermediate stages in a reuseoriented process are different. These stages are:</p>
+                informally when people working on the project know of designs or code that are
+                similar to what is required. They look for these, modify them as needed, and incorporate them into their system.
+                This informal reuse takes place irrespective of the development process that is
+                used. However, in the 21st century, software development processes that focus on the
+                reuse of existing software have become widely used. Reuse-oriented approaches rely
+                on a large base of reusable software components and an integrating framework for
+                the composition of these components. Sometimes, these components are systems in
+                their own right (COTS or commercial off-the-shelf systems) that may provide specific functionality such as word processing or a spreadsheet.
+                A general process model for reuse-based development is shown in Figure 2.3.
+                Although the initial requirements specification stage and the validation stage are
+                comparable with other software processes, the intermediate stages in a reuseoriented process are different. These stages are:</p>
                 <ol>
                     <li>
-                        Component analysis Given the requirements specification, a search is made for
-components to implement that specification. Usually, there is no exact match and
-the components that may be used only provide some of the functionality required.
+                        1.Component analysis Given the requirements specification, a search is made for
+                        components to implement that specification. Usually, there is no exact match and
+                        the components that may be used only provide some of the functionality required.
                     </li>
                     <li>
-                        Requirements modification During this stage, the requirements are analyzed using
-information about the components that have been discovered. They are then modified to reflect the available components. Where modifications are impossible, the
-component analysis activity may be re-entered to search for alternative solutions.
+                        2.Requirements modification During this stage, the requirements are analyzed using
+                        information about the components that have been discovered. They are then modified to reflect the available components. Where modifications are impossible, the
+                        component analysis activity may be re-entered to search for alternative solutions.
                     </li>
                     <li>
-                         System design with reuse During this phase, the framework of the system is
-designed or an existing framework is reused. The designers take into account the
-components that are reused and organize the framework to cater for this. Some
-new software may have to be designed if reusable components are not available.
+                        3.System design with reuse During this phase, the framework of the system is
+                        designed or an existing framework is reused. The designers take into account the
+                        components that are reused and organize the framework to cater for this. Some
+                        new software may have to be designed if reusable components are not available.
                     </li>
                     <li>
-                        Development and integration Software that cannot be externally procured is
-developed, and the components and COTS systems are integrated to create the
-new system. System integration, in this model, may be part of the development
-process rather than a separate activity
+                        4.Development and integration Software that cannot be externally procured is
+                        developed, and the components and COTS systems are integrated to create the
+                        new system. System integration, in this model, may be part of the development
+                        process rather than a separate activity
                     </li>
                 </ol>
 
         </article>
-     </section>
-
-
-     <br>
-
-     <!-- 9th Page -->
-
-     <section>
-        <article>
+         <article>
             <p>There are three types of software component that may be used in a reuse-oriented
-process:</p>
+                process:</p>
                 <ol>
                     <li>
-                        Web services that are developed according to service standards and which are
-available for remote invocation.
+                        1.Web services that are developed according to service standards and which are
+                        available for remote invocation.
                     </li>
                     <li>
-                        Collections of objects that are developed as a package to be integrated with a
-component framework such as .NET or J2EE.
+                        2.Collections of objects that are developed as a package to be integrated with a
+                        component framework such as .NET or J2EE.
                     </li>
                     <li>
-                        Stand-alone software systems that are configured for use in a particular
-environment.
+                        3.Stand-alone software systems that are configured for use in a particular
+                        environment.
                     </li>
                 </ol>
 
@@ -484,13 +469,15 @@ covered in Chapter 16, component-based software engineering in Chapters 17 and
         </article>
      </section>
 
-
      <br>
 
 
      <!-- 10th page -->
+       <article class="chapter2-article">
+            <h1>2.1.3 Reuse-oriented software engineering</h1>
+        </article>
 
-     <section>
+     <section class="chapter2-section" id="2.2">
         <article>
             <h1>2.2 Process activities</h1>
         </article>
@@ -508,21 +495,23 @@ people, and organizational structures involved. In extreme programming, for exam
 specifications are written on cards. Tests are executable and developed before the
 program itself. Evolution may involve substantial system restructuring or refactoring.</p>
         </article>
-        <article>
-            <h1>2.2.1 Software specification</h1>
-        </article>
-        <article>
-            <p>Software specification or requirements engineering is the process of understanding
-and defining what services are required from the system and identifying the constraints on the system’s operation and development. Requirements engineering is a</p>
-        </article>
+    </section>
 
-     </section>
+      
 
      <!-- 11th Page -->
+      <article class="chapter2-article">
+            <h1>2.2.1 Software specification</h1>
+        </article>
 
-     <section>
+     <section class="chapter2-section">
+         <article>
+            <p>Software specification or requirements engineering is the process of understanding
+            and defining what services are required from the system and identifying the constraints on the system’s operation and development. Requirements engineering is a</p>
+        </article>
+
         <article>
-            <img src="images/ChapterTwo/Capture 6.PNG" alt="">
+            <img src="images/ChapterTwo/Capture 6.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <p>particularly critical stage of the software process as errors at this stage inevitably
@@ -551,7 +540,7 @@ the system to be specified.
                     </li>
                     <br>
             <article>
-            <img src="images/ChapterTwo/Capture 7.PNG" alt="">
+            <img src="images/ChapterTwo/Capture 7.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <p>defines a set of requirements. Two types of requirements may be included in this
@@ -564,24 +553,22 @@ are inevitably discovered. It must then be modified to correct these problems.
                     </li>
                 </ol>
 
-        </article>
-     </section>
-
-     <!-- 12th Page -->
-
-     <section>
-        
-
-<p>Of course, the activities in the requirements process are not simply carried out in a
+                <p>Of course, the activities in the requirements process are not simply carried out in a
 strict sequence. Requirements analysis continues during definition and specification and
 new requirements come to light throughout the process. Therefore, the activities of
 analysis, definition, and specification are interleaved. In agile methods, such as extreme
 programming, requirements are developed incrementally according to user priorities and
 the elicitation of requirements comes from users who are part of the development team.</p>
+
         </article>
-        <article>
+     </section>
+
+     <!-- 12th Page -->
+      <article class="chapter2-article">
             <h1>2.2.2 Software design and implementation</h1>
         </article>
+
+     <section class="chapter2-section">
         <article>
             <p>The implementation stage of software development is the process of converting a
 system specification into an executable system. It always involves processes of software design and programming but, if an incremental approach to development is
@@ -594,7 +581,7 @@ Figure 2.5 is an abstract model of this process showing the inputs to the design
 process, process activities, and the documents produced as outputs from this process.</p>
         </article>
         <article>
-            <img src="images/ChapterTwo/Capture 8.PNG" alt="">
+            <img src="images/ChapterTwo/Capture 8.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <p>The diagram suggests that the stages of the design process are sequential. In fact,
@@ -624,9 +611,10 @@ component can be used without other components having to know how it is
 implemented. Once interface specifications are agreed, the components can be
 designed and developed concurrently.
                     </li>
+            </article>
         <article>
             <br>
-            <img src="images/ChapterTwo/Capture 9.PNG" alt="">
+            <img src="images/ChapterTwo/Capture 9.PNG" alt="" class="chapter2-img">
             <br>
         </article>
         <article>
@@ -643,7 +631,7 @@ to be represented in a database. Again, the work here depends on whether an
 existing database is to be reused or a new database is to be created.
             </li>
         </ol>
-
+        </article>
         <article>
             <p>These activities lead to a set of design outputs, which are also shown in Figure 2.5.
 The detail and representation of these vary considerably. For critical systems, detailed
@@ -669,17 +657,9 @@ developer need only add details of the operation of each program component.
 Programming is a personal activity and there is no general process that is usually
 followed. Some programmers start with components that they understand, develop
 these, and then move on to less-understood components. Others take the opposite</p>
-        </article>
-     </section>
-
-
-     <br>
-
-     <!-- 14th Page -->
-
-     <section>
+            </article>
         <article>
-            <img src="images/ChapterTwo/Capture 10.PNG" alt="">
+            <img src="images/ChapterTwo/Capture 10.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <p>approach, leaving familiar components till last because they know how to develop
@@ -696,9 +676,18 @@ code manually. It may require new test cases to localize the problem. Interactiv
 debugging tools, which show the intermediate values of program variables and a trace
 of the statements executed, may be used to support the debugging process.</p>
         </article>
-        <article>
+     </section>
+
+
+     <br>
+
+     <!-- 14th Page -->
+      <article class="chapter2-article">
             <h1>2.2.3 Software validation</h1>
         </article>
+
+     <section class="chapter2-section">
+        
         <article>
             <p>Software validation or, more generally, verification and validation (V&V) is
 intended to show that a system both conforms to its specification and that it meets
@@ -765,20 +754,20 @@ When a system is to be marketed as a software product, a testing process called
 potential customers who agree to use that system. They report problems to the system developers. This exposes the product to real use and detects errors that may not
 have been anticipated by the system builders. After this feedback, the system is modified and released either for further beta testing or for general sale.</p>
         </article>
+        <article>
+            <img src="images/ChapterTwo/Capture 11.PNG" alt="" class="chapter2-img">
+        </article>
      </section>
 
 
      <br>
 
      <!-- 15th Page -->
-
-     <section>
-        <article>
-            <img src="images/ChapterTwo/Capture 11.PNG" alt="">
-        </article>
-        <article>
+      <article class="chapter2-article">
             <h1>2.2.4 Software evolution</h1>
         </article>
+
+     <section class="chapter2-section">
         <article>
             <p>The flexibility of software systems is one of the main reasons why more and more
 software is being incorporated in large, complex systems. Once a decision has been
@@ -796,7 +785,7 @@ processes, it is more realistic to think of software engineering as an evolution
 process (Figure 2.8) where software is continually changed over its lifetime in
 response to changing requirements and customer needs.</p>
         </article>
-        <article>
+        <article id="2.3">
             <h1>2.3 Coping with change</h1>
         </article>
         <article>
@@ -805,16 +794,11 @@ as the business procuring the system responds to external pressures and manageme
 priorities change. As new technologies become available, new design and implementation possibilities emerge. Therefore whatever software process model is used, it is
 essential that it can accommodate changes to the software being developed.</p>
         </article>
-        
-     </section>
-
-     <!-- 16th Page -->
-
-     <section>
         <article>
-            <img src="images/ChapterTwo/image.png" alt="">
+            <img src="images/ChapterTwo/image.png" alt="" class="chapter2-img">
         </article>
-        <article>
+
+         <article>
             <p>Change adds to the costs of software development because it usually means that
 work that has been completed has to be redone. This is called rework. For example, if
 the relationships between the requirements in a system have been analyzed and new
@@ -855,19 +839,23 @@ whole system and allows changes to be incorporated into later increments at rela
 program, is also an important mechanism that supports change tolerance. I discuss
 this in Chapter 3, which covers agile methods.</p>
             </article>
-
+        <article>
+            <img src="images/ChapterTwo/Capture 12.PNG" alt="" class="chapter2-img">
         </article>
+        
+     </section>
+
+     <!-- 16th Page -->
+       
+
      </section>
 
      <!-- 17th Page -->
-
-     <section>
-        <article>
-            <img src="images/ChapterTwo/Capture 12.PNG" alt="">
-        </article>
-        <article>
+      <article class="chapter2-article">
             <h1>2.3.1 Prototyping</h1>
         </article>
+
+     <section class="chapter2-section">
         <article>
             <p>A prototype is an initial version of a software system that is used to demonstrate
 concepts, try out design options, and find out more about the problem and its possible solutions. Rapid, iterative development of the prototype is essential so that costs
@@ -908,7 +896,7 @@ functional system requirements, or to develop a system to demonstrate the feasib
 
      <!-- 18th Page -->
 
-     <section>
+     <section class="chapter2-section">
         <article>
             <p>of the application to managers. The same prototype cannot meet all objectives. If the
 objectives are left unstated, management or end-users may misunderstand the function of the prototype. Consequently, they may not get the benefits that they expected
@@ -955,15 +943,16 @@ Oz prototype where only the user interface is developed. Users interact with thi
 interface but their requests are passed to a person who interprets them and outputs
 the appropriate response.</p>
         </article>
+        <article>
+            <img src="images/ChapterTwo/Capture 13.PNG" alt="" class="chapter2-img">
+        </article>
      </section>
 
-     <section>
-        <article>
-            <img src="images/ChapterTwo/Capture 13.PNG" alt="">
-        </article>
-        <article>
+     <article class="chapter2-article">
             <h1>2.3.2 Incremental delivery</h1>
         </article>
+     <section class="chapter2-section">
+        
         <article>
             <p>Incremental delivery (Figure 2.10) is an approach to software development where
 some of the developed increments are delivered to the customer and deployed for use
@@ -1036,9 +1025,15 @@ developed iteratively and used as a platform for experiments with the system
 requirements and design. With the experience gained from the prototype, definitive
 requirements can then be agreed.</p>
         </article>
-        <article>
+        
+     </section>
+
+     <!-- 19th Page -->
+       <article class="chapter2-article">
             <h1>2.3.3 Boehm’s spiral model</h1>
         </article>
+
+     <section class="chapter2-section">
         <article>
             <p>A risk-driven software process framework (the spiral model) was proposed by
 Boehm (1988). This is shown in Figure 2.11. Here, the software process is represented as a spiral, rather than a sequence of activities with some backtracking from
@@ -1047,13 +1042,8 @@ process. Thus, the innermost loop might be concerned with system feasibility, th
 next loop with requirements definition, the next loop with system design, and so on.
 The spiral model combines change avoidance with change tolerance. It assumes that</p>
         </article>
-     </section>
-
-     <!-- 19th Page -->
-
-     <section>
         <article>
-            <img src="images/ChapterTwo/Capture 14.PNG" alt="">
+            <img src="images/ChapterTwo/Capture 14.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <p>changes are a result of project risks and includes explicit risk management activities
@@ -1100,7 +1090,7 @@ Chapter 22.</p>
 
      <!-- 20th Page -->
 
-     <section>
+     <section class="chapter2-section" id="2.4">
         <article>
             <h1>2.4 The Rational Unified Process</h1>
         </article>
@@ -1141,7 +1131,7 @@ contribution is minor, then the project may be cancelled after this phase.
             </ol>
         </article>
         <article>
-            <img src="images/ChapterTwo/Capture 15.PNG" alt="">
+            <img src="images/ChapterTwo/Capture 15.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <ol>
@@ -1190,9 +1180,9 @@ modelling and requirements and, in the later phases, in testing and deployment.<
 
      <!-- 21th Page -->
 
-     <section>
+     <section class="chapter2-section">
         <article>
-            <img src="images/ChapterTwo/Capture 16.PNG" alt="">
+            <img src="images/ChapterTwo/Capture 16.PNG" alt="" class="chapter2-img">
         </article>
         <article>
             <p>The practice perspective on the RUP describes good software engineering practices that are recommended for use in systems development. Six fundamental best
