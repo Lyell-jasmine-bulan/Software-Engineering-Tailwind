@@ -8,7 +8,7 @@
 
 @theme {
   --color-primary: #0284c74d;
-  --color-secondary: #38bdf833;
+  --color-secondary: grey;
   --color-background: #000000;
   --color-foreground: #ffffff;
 }
@@ -30,13 +30,15 @@
 
 @font-face {
     font-family: 'myfont';
-    src: url(ChapterFour/college.ttf);
+    src: url('./college.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, p, h2, h3, h4, h5, h6, span, div, ul, li, button, article {
     font-family: 'myfont', Arial, Helvetica, sans-serif;
 }
 
-.myFont {
-    font-family: 'myfont', Arial, Helvetica, sans-serif;
-}
 
 
 
@@ -51,7 +53,7 @@
   }
 
   body {
-    @apply font-sans bg-black text-white min-h-screen leading-relaxed;
+    @apply font-sans bg-black text-white min-h-screen leading-relaxed m-0;
        
   }
 }

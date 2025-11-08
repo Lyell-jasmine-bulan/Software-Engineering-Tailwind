@@ -10,7 +10,7 @@
 }
 
 .requirments{
-     @apply bg-secondary shadow-lg shadow-cyan-500/50 text-center text-2xl rounded-lg font-semibold;
+     @apply shadow-lg shadow-cyan-500/50 text-center text-2xl rounded-lg ;
 }
 
 
@@ -28,13 +28,13 @@
 
 .chapter4-objectives,
 .chapter4-context {
-  @apply bg-secondary shadow-sm shadow-white rounded-xl p-8 
-   text-center font-semibold m-4;
+  @apply  shadow-sm shadow-lg shadow-cyan-500/50 rounded-xl p-8 
+   text-center font-semibold m-4 text-secondary;
 }
 
 .chapter4-function0{
-  @apply bg-secondary shadow-sm shadow-white rounded-xl p-8 
-   text-center font-semibold m-8;
+  @apply shadow-sm shadow-white rounded-xl p-8 
+   text-center m-8;
 }
 
 
@@ -60,19 +60,16 @@
 /*heder*/
 
 
-/*grid*/
-.sections-grid {
-  @apply grid sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6;
-}
 
 
 /*main*/
 .chapter4-main{
-    @apply bg-secondary p-10 m-20 rounded-md text-justify shadow-lg shadow-cyan-500/50 shadow-md;
+    @apply p-10 m-20 rounded-md text-justify shadow-lg shadow-cyan-500/50 shadow-md 
+    ;
 }
 
 .chapter4{
-    @apply font-semibold text-xl p-3;
+    @apply text-xl p-3;
 }
 .chapter4-right{
     @apply font-semibold text-xl text-right;
