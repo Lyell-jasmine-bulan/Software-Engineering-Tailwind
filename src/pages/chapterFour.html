@@ -9,7 +9,7 @@
     <title>Chapter 4</title>
 
 </head>
-<body class="body">
+<body class="chapter4-body">
     <body>
     <nav class="navbar bg-primary">
         <div class="container">
@@ -21,10 +21,10 @@
                     <span class="logo-text">Software Engineering</span>
                 </div>
                 <div class="nav-links">
-                    <a href="chapterOne.html" class="nav-link">Chapter One</a>
-                    <a href="chapterTwo.html" class="nav-link">Chapter Two</a>
-                    <a href="chapterThree.html" class="nav-link">Chapter Three</a>
-                    <a href="chapterFour.html" class="nav-link">Chapter Four</a>
+                    <a href="chapterOne.html" class="nav-link" >Chapter One</a>
+                    <a href="chapterTwo.html" class="nav-link"  >Chapter Two</a>
+                    <a href="chapterThree.html" class="nav-link" >Chapter Three</a>
+                    <a href="chapterFour.html" class="nav-link" >Chapter Four</a>
                 </div>
             </div>
         </div>
@@ -33,58 +33,86 @@
     <header class="chapterFour">
        <section class="requirments">
         <h1 >  4  </h1>
-           <h1> Requirements
-            engineering </h1>
+        <h1> REQUIREMENTS</h1>
+        <h1>ENGINEERING</h1>     
        </section> 
     
     <br>
     
-    <section class="objectives1">
-        <h1 class="objectives2">Objectives</h1>
-        <ul>
-        <p>
-            The objective of this chapter is to introduce software requirements and
-            to discuss the processes involved in discovering and documenting
-            these requirements. When you have read the chapter you will:
-        </p>
-        <li>understand the concepts of user and system requirements and
-            why these requirements should be written in different ways;</li>
-        <li>understand the differences between functional and nonfunctional
-            software requirements;</li>
-        <li> understand how requirements may be organized in a software
-                requirements document;</li>
-        <li>understand the principal requirements engineering activities of
-            elicitation, analysis and validation, and the relationships between
-            these activities;</li>
-        <li>understand why requirements management is necessary and how
-            it supports other requirements engineering activities.
-        </li>
-
-        </ul>
-      
+    <section class="chapter4-function0">
+   
+        <article class="scroll-link-grid">
+             <a href="#4" class="scroll-link">Requirements engineering</a>
+            <a href="#4.1" class="scroll-link">Functional and non-functional requirements</a>   
+            <a href="#4.2" class="scroll-link">The software requirements document</a>
+            <a href="#4.3" class="scroll-link">Requirements specification</a>
+            <a href="#4.4" class="scroll-link">Requirements engineering processes</a>
+            <a href="#4.5" class="scroll-link">Requirements elicitation and analysis</a>
+            <a href="#4.6" class="scroll-link">Requirements validation</a>
+            <a href="#4.7" class="scroll-link">Requirements management</a>
+             
+        </article>
     </section>
+
+ <section class="chapter4-objectives">
+
+
+
+      <button id="toggleObjectives" class="toggle-btn" class="chapter4-objectives1">Objectives</button>
+      <div id="objectivesContent" class="toggle-content hidden">
+        <p>
+          The objective of this chapter is to introduce software requirements and
+          to discuss the processes involved in discovering and documenting
+          these requirements. When you have read the chapter you will:
+        </p>
+ <br>
+        <ul>
+          <li class="chapter4-text">Understand user and system requirements and why these are written differently.</li>
+         
+          <li class="chapter4-text">Understand functional and non-functional requirements.</li>
+          
+          <li class="chapter4-text">Understand how requirements are organized in a software document.</li>
+          
+          <li class="chapter4-text">Understand elicitation, analysis, validation, and their relationships.</li>
+          
+          <li class="chapter4-text">Understand why requirements management is necessary.</li>
+        </ul>
+      </div>
+    </section>
+
+   
+    <section class="chapter4-context">
+      <button id="toggleContents" class="toggle-btn">Contents</button>
+      <div id="contentsContent" class="toggle-content hidden">
+        <p class="chapter4-text">4.1 Functional and non-functional requirements</p>
+        <p class="chapter4-text">4.2 The software requirements document</p>
+        <p class="chapter4-text">4.3 Requirements specification</p>
+        <p class="chapter4-text">4.4 Requirements engineering processes</p>
+        <p class="chapter4-text">4.5 Requirements elicitation and analysis</p>
+        <p class="chapter4-text">4.6 Requirements validation</p>
+        <p class="chapter4-text">4.7 Requirements management</p>
+      </div>
+    </section>
+
+        <script>
     
-    <br>
-        <section class="context1">
-            <h1 class="text-center text-2xl">Contents</h1>
-        
-
-            <p>4.1 Functional and non-functional requirements</p>
-            <p>4.2 The software requirements document</p>
-            <p>4.3 Requirements specification</p>
-            <p>4.4 Requirements engineering processes</p>
-            <p>4.5 Requirements elicitation and analysis</p>
-            <p>4.6 Requirements validation</p>
-            <p>4.7 Requirements management</p>
-
-        </section>
-
-        
+    const toggle = (btnId, contentId, text1, text2) => {
+      const btn = document.getElementById(btnId);
+      const content = document.getElementById(contentId);
+      btn.addEventListener("click", () => {
+        content.classList.toggle("hidden");
+        btn.textContent = content.classList.contains("hidden") ? text1 : text2;
+      });
+    };
+    toggle("toggleObjectives", "objectivesContent", "Objectives", "Objectives");
+    toggle("toggleContents", "contentsContent", "Contents", "Contents");
+  </script>
 
     </header>
 
-    <main class="main">
-         <h2 class=" chapter4 ">
+    
+    <main class="chapter4-main" >
+         <h2 class=" chapter4 " id="4">
                 Chapter 4 ■ Requirements engineering 83
             </h2>
     <br>
@@ -189,7 +217,7 @@
 
         </section>
 
-        <section  class="pad">
+        <section>
             <p class=" chapter4-figure ">___________</p>
             <p class=" chapter4-figure ">Figure 4.1 User and
                 system requirements
@@ -217,7 +245,7 @@
         </section>
 
         <section>
-            <h3 class="chapter4-function">4.1 Functional and non-functional requirements</h3>
+            <h3 class="chapter4-function" id="4.1">4.1 Functional and non-functional requirements</h3>
         </section>
     <br>    
         <section>
@@ -232,7 +260,7 @@
         </section>
 
         <section>
-            <h1 class=" chapter4-left ">4.1 ■ Functional and non-functional requirements 85</h1>
+            <h1 class=" chapter4-left " id="4.1">4.1 ■ Functional and non-functional requirements 85</h1>
         </section>
     <br>    
         <section  class="chapter4-bg1">
@@ -581,7 +609,7 @@
         </section>
 
         <section>
-            <h1 class="chapter4-right">4.2 ■ The software requirements document 91</h1>
+            <h1 class="chapter4-right" id="4.2">4.2 ■ The software requirements document 91</h1>
         </section>
 
         <section class=" chapter4-bg" >
@@ -733,7 +761,7 @@
        
 
         <section>
-            <h3 class=" chapter4-User1 ">4.3 Requirements specification</h3>
+            <h3 class=" chapter4-User1 " id="4.3">4.3 Requirements specification</h3>
         </section>
 
         <section>
@@ -1016,7 +1044,7 @@
         </article>
 
         <section>
-            <h3 class="chapter4-function">4.4 Requirements engineering processes</h3>
+            <h3 class="chapter4-function" id="4.4">4.4 Requirements engineering processes</h3>
         </section>
 
         <section>
@@ -1164,7 +1192,7 @@
             </section>
 
             <section>
-                <p class="chapter4-right">4.5 ■ Requirements elicitation and analysis 101</p>
+                <p class="chapter4-right" id="4.5">4.5 ■ Requirements elicitation and analysis 101</p>
                 
             </section>
 
@@ -1732,7 +1760,7 @@
             </article>
 
             <section>
-                <h3 class="chapter4-function">4.6 Requirements validation</h3>
+                <h3 class="chapter4-function" id="4.6">4.6 Requirements validation</h3>
             </section>
 
             <section>
@@ -1786,7 +1814,7 @@
             </section>
 
             <section>
-                <p class="chapter4-right">4.7 ■ Requirements management 111</p>
+                <p class="chapter4-right" id="4.7">4.7 ■ Requirements management 111</p>
             </section>
 
             <article class="chapter4-pic">

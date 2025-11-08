@@ -35,7 +35,7 @@
     font-style: normal;
 }
 
-h1, p, h2, h3, h4, h5, h6, span, div {
+h1, p, h2, h3, h4, h5, h6, span, div, ul, li, button, article {
     font-family: 'myfont', Arial, Helvetica, sans-serif;
 }
 
@@ -53,7 +53,7 @@ h1, p, h2, h3, h4, h5, h6, span, div {
   }
 
   body {
-    @apply font-sans bg-black text-white min-h-screen leading-relaxed;
+    @apply font-sans bg-black text-white min-h-screen leading-relaxed m-0;
        
   }
 }
@@ -123,8 +123,7 @@ h1, p, h2, h3, h4, h5, h6, span, div {
   @apply text-xl text-gray-400 mb-12 max-w-2xl mx-auto;
 }
 
-
-.btn-hero {
+ .btn-hero {
   @apply bg-white text-black px-10 py-4 rounded-md text-base font-medium cursor-pointer transition duration-300 hover:bg-gray-200 shadow-[0_10px_15px_-3px_rgba(255,255,255,0.1)];
 }
 
@@ -293,4 +292,8 @@ h1, p, h2, h3, h4, h5, h6, span, div {
 
  
  
+}
+
+.p{
+  text-align: justify;
 }
